@@ -1,0 +1,121 @@
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin */
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    background-image:  url('./Images/CPU_Background.jfif');
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+    font-family: "lato";
+    margin: 0px;
+}
+
+main {
+    margin: 100px auto;
+    width: 500px;
+}
+
+img {
+    width: 200px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    margin:10px 0;
+}
+
+fieldset label {
+    font-size: 19px;
+}
+
+fieldset input {
+    font-size: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.firstFieldset {
+    margin-top: 15px;
+}
+
+.secondFieldset {
+    width: 100%;
+}
+
+.check {
+    display: inline-block;
+    width: 50%;
+}
+
+.forgotPassword {
+    text-decoration: underline;
+    float: left;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.button {
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+button {
+    background: transparent;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    font-size: 16px;
+    
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    height: 100px;
+    position: relative;
+    bottom: -300px;
+    background: rgb(3,35,109);
+    background: linear-gradient(360deg, rgba(3,35,109,1) 0%, rgba(3,35,109,0.1) 100%);
+    border: none;
+
+}
+
+
+
+
+
+
+
